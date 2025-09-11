@@ -27,7 +27,7 @@ public class Main {
     }
 
     public static int getIntegerInput() {
-        System.out.print( "Please enter the number of squares, an integer: ");
+        System.out.print( "Please enter the number of squares to sum, an integer: ");
         Scanner sc = new Scanner( System.in );
         return sc.nextInt();
     }
